@@ -1,9 +1,30 @@
 
 [
   {
+    "title": "Les autres produits des fours",
+    "image": "other-furnace-usage.png",
+    "text": "Les fours peuvent transformer la pierre en briques et les plaques de fer en acier (nécessite la technologie acier dans la recherche)."
+  },
+  {
+    "title": "Les deux côtés des tapis roulants",
+    "image": "two-sides-of-belts.png",
+    "text": "Les côtés gauche et droit des tapis roulants peuvent être utilisés indépendamment pour différents matériaux. Les bras robotisés posent les matériaux du côté le plus éloigné du tapis roulant."
+  },
+  {
+    "title": "Reconstruire",
+    "image": "rebuilding.png",
+    "text": "Les fours en acier peuvent réutiliser les anciens fours en pierre pour être fabriqués. Cela fonctionne également pour les machines d'assemblage, les tapis roulants, les bras robotisés... Reconstruire permet aussi de changer la direction d'un tapis roulant."
+  },
+  {
+    "title": "Information sur le réseau électrique",
+    "image": "electric-network-info.png",
+    "text": "\"__CONTROL__open-gui__\" sur un poteau électrique affiche les statistiques du réseau électrique auquel il est connecté."
+  },
+  {
     "title": "Transfert de pile",
     "image": "stack-transfer.png",
-    "text": "\"__CONTROL__stack-transfer__\" permet de déplacer une pile entière. De plus cette commande est suffisamment intelligente pour savoir où déplacer la pile. Par exemple l'utiliser sur une  __ITEM__iron-axe__ dans l'inventaire la mettra dans l'emplacement des Outils." },
+    "text": "\"__CONTROL__stack-transfer__\" permet de déplacer une pile entière. De plus cette commande est suffisamment intelligente pour savoir où déplacer la pile. Par exemple l'utiliser sur une  __ITEM__iron-axe__ dans l'inventaire la mettra dans l'emplacement des Outils."
+  },
   {
     "title": "Transfert d'objets",
     "image": "inventory-transfer.png",
@@ -21,6 +42,7 @@
   },
   {
     "title": "Libérer le curseur",
+    "image": "clean-cursor.png",
     "text": "\"__CONTROL__clean-cursor__\" déplacera la pile d'objet sur le curseur en direction de votre inventaire/barre d'action."
   },
   {
@@ -34,8 +56,18 @@
     "text": "La façon la plus rapide de construire des choses en ligne, comme les tapis roulants ou les tuyaux est de maintenir \"__CONTROL__build__\" à l'endroit où vous voulez construire et de courir dans la direction voulue."
   },
   {
+    "title": "Construction rapide des lignes électriques",
+    "image": "building-electric-lines.png",
+    "text": "La façon la plus rapide de construire une ligne électrique est de maintenir \"__CONTROL__build__\" tout en se déplaçant. Les poteaux se placeront automatiquement à leur intervalle maximum."
+  },
+  {
     "title": "Filtres",
     "image": "filter.png",
     "text": "Utiliser \"__CONTROL__set-filter__\" sur la barre d'action vous permet de réserver un emplacement à un objet particulier. Aucun autre objet ne pourra être placé dedans et l'objet du type voulu sera placé en priorité à cet endroit. Le filtre peut être retiré en appuyant sur \"__CONTROL__clear-filter__\"."
+  },
+  {
+    "title": "Objets utilisables",
+    "image": "usable-items.png",
+    "text": "Les objets utilisables sont activés en appuyant sur la touche correpondante de la barre de raccourcis. Le curseur de la souris indique l'endroit où utiliser l'objet (pour les capsules et les grenades par exemple)."
   }
 ]
